@@ -1,4 +1,4 @@
-# Bayesian predictive model upon Lifetime of Indoor Ultrafine Particle
+# Bayesian framework for Modeling Lifetime of Indoor Ultrafine Particle
 
 This repository contains MATLAB code tailored for Bayesian parameter identification in indoor ultrafine particle modeling. Leveraging advanced Bayesian inference and detailed particle dynamics models, this toolkit enables robust analyses and predictions of indoor ultrafine particle behaviors.
 
