@@ -1,7 +1,3 @@
-Absolutely! Here's a GitHub README styled description for your Bayesian parameter identification code focused on Indoor Ultrafine Particle Modeling:
-
----
-
 # Bayesian Parameter Identification for Indoor Ultrafine Particle Modeling
 
 This repository hosts MATLAB code that targets Bayesian parameter identification in the realm of indoor ultrafine particle (UFP) modeling. Utilizing state-of-the-art Bayesian inference techniques coupled with sophisticated models of particle dynamics, this toolkit offers robust solutions for comprehending and predicting indoor ultrafine particle behaviors.
@@ -62,7 +58,3 @@ Heartfelt thanks to all contributors and researchers who have offered valuable i
 ## References
 
 For detailed insights and academic context, please refer to the associated research papers and visit the [relevant department or research group website].
-
----
-
-This README provides a comprehensive overview of your Indoor Ultrafine Particle Modeling project, highlighting its features, functionalities, and its utility in the field of environmental modeling. Please replace placeholders with specific details pertaining to your project, authors, and repository URL.
