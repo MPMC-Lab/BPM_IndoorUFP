@@ -26,10 +26,8 @@ The backbone of the computational aspect, these functions are key to the toolkit
 - **Kernel Evaluation and Loss Term Calculation**: Crucial for evaluating particle interactions and accounting for losses due to various environmental factors.
 
 ## Authors
-
-- **[Author 1 Name]** - [Department], [University] - [email]
-- **[Author 2 Name]** - [Department], [University] - [email]
-- **[Author 3 Name]** - [Department], [University] - [email]
+- **Yesol Hyun** - School of Mathematics and Computing (Computational Science and Engineering), Yonsei University - yesol2@yonsei.ac.kr
+- **Jung-Il Choi** - School of Mathematics and Computing (Computational Science and Engineering), Yonsei University - jic@yonsei.ac.kr
 
 (Please replace `[Author 1 Name]`, `[Department]`, `[University]`, `[email]` with actual names, departments, universities, and emails.)
 
