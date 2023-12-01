@@ -1,58 +1,48 @@
-# Bayesian Parameter Identification for Indoor Ultrafine Particle Modeling
+# Bayesian predictive model for for Indoor Ultrafine Particle Modeling
 
-This repository hosts MATLAB code that targets Bayesian parameter identification in the realm of indoor ultrafine particle (UFP) modeling. Utilizing state-of-the-art Bayesian inference techniques coupled with sophisticated models of particle dynamics, this toolkit offers robust solutions for comprehending and predicting indoor ultrafine particle behaviors.
+This repository contains MATLAB code tailored for Bayesian parameter identification in indoor ultrafine particle modeling. Leveraging advanced Bayesian inference and detailed particle dynamics models, this toolkit enables robust analyses and predictions of indoor ultrafine particle behaviors.
 
 ## Detailed Description
 
-### 1. Experimental Data Handling and Bayesian Setup (`PI_IndoorUFP_Main.m`)
-At the core of the Bayesian analysis for indoor UFP modeling is the `PI_IndoorUFP_Main.m` module. It is meticulously engineered to manage experimental data and to establish a solid foundation for advanced Bayesian analysis. Key functionalities include:
-- **Data Management**: Efficient handling and preliminary processing of experimental data, preparing it for detailed analysis.
-- **Bayesian Framework Establishment**: Constructs a thorough Bayesian inference structure, essential for deep analytical insights into particle dynamics.
-- **Solver and Sampler Configuration**: Optimizes the inversion solver and sampler within the Bayesian framework, tailoring them to the specific requirements of UFP modeling.
+### 1. Initial Settings (`PI_IndoorUFP_InitialSetting`)
+The `PI_IndoorUFP_InitialSetting` function sets initial parameters for ultrafine particle modeling based on particle sources, integrating experimental data to establish baseline configurations for simulation.
 
-### 2. IUQ Method Implementation (`uq_UFP`)
-This function encapsulates the Inverse Uncertainty Quantification (IUQ) approach, fundamental to modern parameter estimation in ultrafine particle models. Its primary roles are:
-- **Multifaceted Data Processing**: Simultaneously processes multiple datasets, ensuring a holistic approach to parameter estimation.
-- **Accurate Parameter Estimation**: Employs Bayesian inference to accurately estimate parameters, bolstering the model's predictive power.
+### 2. Data Handling and Bayesian Setup (`PI_IndoorUFP_Main.m`)
+The `PI_IndoorUFP_Main.m` module manages experimental data, setting up a structured Bayesian analysis framework tailored for ultrafine particle dynamics.
 
-### 3. Forward Modeling for Ultrafine Particle Dynamics (`Aerosol_Model`)
-The `Aerosol_Model` function showcases the toolkit's comprehensive simulation capability, focusing on the dynamics of ultrafine particles in indoor environments. Its contributions are:
-- **Diverse Modeling Techniques**: Adapts to a variety of particle dynamics models, offering versatility in simulations.
-- **Advanced Simulation Methods**: Implements sophisticated solvers with adaptive time-stepping, crucial for accurate modeling under complex conditions.
+### 3. IUQ Method Implementation (`uq_UFP`)
+This function employs the Inverse Uncertainty Quantification method for accurate parameter estimation, processing multiple datasets for comprehensive analysis.
 
-### 4. Supporting Functions
-The backbone of the computational aspect, these functions are key to the toolkit’s operations:
-- **Particle Distribution Analysis**: Functions for analyzing particle size distributions and concentration, vital for understanding indoor particle dynamics.
-- **Kernel Evaluation and Loss Term Calculation**: Crucial for evaluating particle interactions and accounting for losses due to various environmental factors.
+### 4. Forward Modeling (`Aerosol_Model`)
+The `Aerosol_Model` function simulates ultrafine particle dynamics, using various models and solvers to predict particle behavior in indoor environments.
+
+### 5. Supporting Functions
+Essential computational functions support the modeling process, including particle distribution analysis and environmental impact calculations.
 
 ## Authors
+
 - **Yesol Hyun** - School of Mathematics and Computing (Computational Science and Engineering), Yonsei University - yesol2@yonsei.ac.kr
 - **Jung-Il Choi** - School of Mathematics and Computing (Computational Science and Engineering), Yonsei University - jic@yonsei.ac.kr
 
-(Please replace `[Author 1 Name]`, `[Department]`, `[University]`, `[email]` with actual names, departments, universities, and emails.)
-
 ## Installation
-
-To clone the repository to your local machine, use:
 
 ```bash
 git clone https://github.com/[YourRepository]/IndoorUFP_PI.git
 ```
-
-Alternatively, source files can be downloaded via the GitHub 'Download ZIP' option.
+Alternatively, the source files can be downloaded through github menu 'Download ZIP'.
 
 ## Contributing
 
-Contributions to enhance and extend the capabilities of this project are warmly welcomed. Please fork the repository and submit a pull request for review.
+Contributions are welcome. Please fork the repository and submit a pull request for review.
 
 ## License
 
-This project is licensed under the MIT License - details can be found in the [LICENSE.md](LICENSE.md) file.
+This project is under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-Heartfelt thanks to all contributors and researchers who have offered valuable insights and suggestions for this project.
+Thanks to all contributors and researchers for their valuable insights and feedback.
 
 ## References
 
-For detailed insights and academic context, please refer to the associated research papers and visit the [relevant department or research group website].
+For further information, refer to associated research papers and visit the School of Mathematics and Computing at Yonsei University.
