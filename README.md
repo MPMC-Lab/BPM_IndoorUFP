@@ -27,7 +27,7 @@ Essential computational functions support the modeling process, including partic
 ## Installation
 
 ```bash
-git clone https://github.com/MPMC-Lab/IndoorUFP_PI_repo.git
+git clone https://github.com/MPMC-Lab/BPM_IndoorUFP.git
 ```
 Alternatively, the source files can be downloaded through github menu 'Download ZIP'.
 
