@@ -4,10 +4,10 @@ This repository contains MATLAB code tailored for Bayesian parameter identificat
 
 ## Detailed Description
 
-### 1. Initial Settings (`PI_IndoorUFP_InitialSetting`)
+### 1. Initial Settings (`BPM_IndoorUFP_InitialSetting`)
 The `PI_IndoorUFP_InitialSetting` function sets initial parameters for ultrafine particle modeling based on particle sources, integrating experimental data to establish baseline configurations for simulation.
 
-### 2. Data Handling and Bayesian Setup (`PI_IndoorUFP_Main.m`)
+### 2. Data Handling and Bayesian Setup (`BPM_IndoorUFP_Main.m`)
 The `PI_IndoorUFP_Main.m` module manages experimental data, setting up a structured Bayesian analysis framework tailored for ultrafine particle dynamics.
 
 ### 3. IUQ Method Implementation (`uq_UFP`)
