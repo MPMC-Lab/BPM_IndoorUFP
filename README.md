@@ -5,10 +5,10 @@ This repository contains MATLAB code tailored for Bayesian parameter identificat
 ## Detailed Description
 
 ### 1. Initial Settings (`BPM_IndoorUFP_InitialSetting`)
-The `PI_IndoorUFP_InitialSetting` function sets initial parameters for ultrafine particle modeling based on particle sources, integrating experimental data to establish baseline configurations for simulation.
+The `BPM_IndoorUFP_InitialSetting` function sets initial parameters for ultrafine particle modeling based on particle sources, integrating experimental data to establish baseline configurations for simulation.
 
 ### 2. Data Handling and Bayesian Setup (`BPM_IndoorUFP_Main.m`)
-The `PI_IndoorUFP_Main.m` module manages experimental data, setting up a structured Bayesian analysis framework tailored for ultrafine particle dynamics.
+The `BPM_IndoorUFP_Main.m` module manages experimental data, setting up a structured Bayesian analysis framework tailored for ultrafine particle dynamics.
 
 ### 3. IUQ Method Implementation (`uq_UFP`)
 This function employs the Inverse Uncertainty Quantification method for accurate parameter estimation, processing multiple datasets for comprehensive analysis.
@@ -39,10 +39,13 @@ Contributions are welcome. Please fork the repository and submit a pull request 
 
 This project is under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-Thanks to all contributors and researchers for their valuable insights and feedback.
-
 ## References
 
 For further information, refer to associated research papers and visit the School of Mathematics and Computing at Yonsei University.
+
+## Contact Information
+
+Should you require assistance or have any inquiries, kindly contact Dr. Jung-Il Choi via email at [jic@yonsei.ac.kr](mailto:jic@yonsei.ac.kr).
+
+For detailed information and further reading related to BPM_GasAdsorption, you are encouraged to consult the reference paper. Additional insights and resources are available at School of Mathematics and Computing, within the domain of Computational Science and Engineering at Yonsei University. For more details, please visit our website: [mpmc.yonsei.ac.kr](http://mpmc.yonsei.ac.kr).
+
